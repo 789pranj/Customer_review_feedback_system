@@ -28,7 +28,7 @@ This is an AI-powered Customer Feedback Review System that analyzes customer ser
 
 ## 🧩 Features
 
-- ✅ Intent Detection with custom fine-tuned BERT model + Logestic Regression Model (high accuracy, Precision)
+- ✅ Intent Detection(Tagging) with custom fine-tuned BERT model + Logistic Regression Model (high accuracy, Precision)
 - ✅ Sentiment Analysis using `cardiffnlp/twitter-roberta-base-sentiment`
 - ✅ Summarization using `google/flan-t5-large`
 - ✅ Call Quality Score based on keywords, politeness, and sentiment
