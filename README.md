@@ -28,9 +28,9 @@ This is an AI-powered Customer Feedback Review System that analyzes customer ser
 
 ## 🧩 Features
 
+- ✅ Intent Detection with custom fine-tuned BERT model + Logestic Regression Model (high accuracy, Precision)
 - ✅ Sentiment Analysis using `cardiffnlp/twitter-roberta-base-sentiment`
 - ✅ Summarization using `google/flan-t5-large`
-- ✅ Intent Detection with custom fine-tuned BERT model
 - ✅ Call Quality Score based on keywords, politeness, and sentiment
 - ✅ NLP-based Section Tagging (e.g., Greeting, Complaint, Resolution)
 - ✅ Real-time feedback generation for customer transcripts
@@ -54,7 +54,7 @@ cd customer-feedback-system
 ```
 
 ML model
-
+## Due to very large size of model we are unable to upload it right now but we will be uploading it very soon as we tackle this problem.
 ```
 cd fastapi_server
 pip install fastapi uvicorn transformers torch pandas
